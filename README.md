@@ -1,4 +1,4 @@
-# Facila Kreo : utilitaire de gestion de projets
+# facila kreo : utilitaire de gestion de projets
 
     version : 0.01 - Avril 2021
     auteur  : Thierry LE GALL 
