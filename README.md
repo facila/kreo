@@ -6,7 +6,4 @@
     site    : https://github.com/facila/kreo
 
 
-Version de Test
-
-Terminée à 99% , reste à finir et tester les menus Fichier et Quitter
-
+Version de Test , terminée à 99%
