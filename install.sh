@@ -4,7 +4,7 @@
 # exécuter la commande : sudo sh install.sh
 
 APPLI=kreo
-VERSION=0.01
+VERSION=0.02
 
 DIR=/usr/local/facila
 LG=fr_FR.UTF-8
