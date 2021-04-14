@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
 
-# kreo.tk version 0.01 01/01/2021 par Thierry Le Gall
+# kreo.tk version 0.02 14/04/2021 par Thierry Le Gall
 
 # USER est passé comme argument pour être affiché sur la commande ps
 # cela permet de voir qui utilise l'application
