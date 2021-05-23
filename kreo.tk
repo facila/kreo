@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
 
-# kreo.tk version 0.02 14/04/2021 par Thierry Le Gall
+# kreo.tk version 0.03 22/05/2021 par Thierry Le Gall
 
 # USER est passé comme argument pour être affiché sur la commande ps
 # cela permet de voir qui utilise l'application
@@ -25,12 +25,14 @@ $tmp{debug} = $ENV{KREO_DEBUG};
 $var{mode} = $var{page} = $var{project} = $var{dir} = $var{file} = '';
 $var{mode} = ':encoding(UTF-8)' if $env{lang} =~ /UTF-8/;
 
-open KREO_DEBUG,">>$tmp{debug}";
+#open KREO_DEBUG,">>$tmp{debug}";
+open(KREO_DEBUG,">>$var{mode}",$tmp{debug});
 
 require "$dir{share}/Kreo.pm";
-require "$dir{prg}/appli.pm";
-require "$dir{prg}/command.pm";
-require "$dir{prg}/page.pm";
+require "$dir{prg}/Kreo_appli.pm";
+require "$dir{prg}/Kreo_command.pm";
+require "$dir{prg}/Kreo_page.pm";
+require "$dir{prg}/Kreo_tag.pm";
 
 my $main = &kreo_main;
 
@@ -39,4 +41,4 @@ my $main = &kreo_main;
 MainLoop $main;
 
 close KREO_DEBUG;
-&appli_exit;
+&quit_exit;
