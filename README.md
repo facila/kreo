@@ -7,3 +7,11 @@
 
 
 Version Beta Test
+
+Installation de facila kreo
+
+vous devez avoir installé au préalable :
+- perl et perl-tk ( Tk.pm )
+
+se positionner dans le répertoire contenant install.sh et le fichier .tar.gz
+exécuter : sudo sh install.sh kreo "version de kreo à installer"
