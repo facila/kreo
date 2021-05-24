@@ -4,13 +4,18 @@
 # se positionner dans le répertoire contenant install.sh et le fichier tar.gz
 # exécuter la commande : sudo sh install.sh APPLI VERSION
 
-APPLI=$1
-VERSION=$2
+proc_appli ()
+{
+case $APPLI in
+kalkulo) proc_exit 'use Net::Kalk' facila/Net-Kalk ;;
+esac
+}
 
-DIR=/usr/local/facila
-LG=fr_FR.UTF-8
-
-[ "`whoami`" != 'root' ] && { echo vous devez exécuter : sudo sh install.sh APPLI VERSION ; exit ; }
+proc_perl ()
+{
+proc_exit ''       perl 
+proc_exit 'use Tk' perl-tk
+}
 
 proc_exit ()
 {
@@ -18,13 +23,23 @@ perl -e "$1" 2>/dev/null
 [ $? != "0" ] && { echo "vous devez d'abbord installer : $2" ; exit ; }
 }
 
-# vérification des dépendances
-proc_exit ''       perl 
-proc_exit 'use Tk' perl-tk
-[ "$APPLI" = 'kalkulo' ] { proc_exit 'use Net::Kalk' facila/Net-Kalk }
+##########################################################################
 
+APPLI=$1
+VERSION=$2
 FILE=$APPLI.$VERSION.tar.gz
-[ -s $FILE ] && { echo fichier $FILE absent ; exit ; }
+
+DIR=/usr/local/facila
+LG=fr_FR.UTF-8
+
+[ "`whoami`" != 'root' ] && { echo vous devez exécuter : sudo sh install.sh APPLI VERSION ; exit ; }
+[ ! -s $FILE           ] && { echo fichier $FILE absent ; exit ; }
+
+# vérification des dépendances
+proc_appli
+proc_perl
+
+# installation
 echo installation de facila $FILE
 tar -xzf $FILE -C /
 
