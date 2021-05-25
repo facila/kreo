@@ -12,11 +12,11 @@
 vous devez avoir installé au préalable :
 - perl et perl-tk ( Tk.pm )
 
-télécharger kreo à partir de github :
-- cliquer sur : Code
-- cliquer sur : Download ZIP
+téléchargez kreo à partir de github :
+- cliquez sur : Code
+- cliquez sur : Download ZIP
 
-se positionner dans le répertoire contenant kreo-main.zip et taper les commandes suivantes :
+positionnez vous dans le répertoire contenant kreo-main.zip et tapez les commandes suivantes :
 - unzip kreo-main.zip
 - cd kreo-main
 - sudo sh install.sh kreo 0.03
