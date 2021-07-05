@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# version 1.01 Juin 2021
+# version 1.02 Juillet 2021
 # se positionner dans le répertoire contenant install.sh et le FICHIER tar.gz à installer
 # exécuter la commande : sudo sh install.sh FICHIER
 
