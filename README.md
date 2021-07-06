@@ -2,7 +2,7 @@
 
     Version Beta Test
     
-    version : 0.04 - Juin 2021
+    version : 0.05 - Juillet 2021
     auteur  : Thierry LE GALL 
     contact : facila@gmx.fr
     site    : https://github.com/facila/kreo
@@ -19,5 +19,5 @@ téléchargez kreo à partir de github :
 positionnez vous dans le répertoire contenant kreo-main.zip et tapez les commandes suivantes :
 - unzip kreo-main.zip
 - cd kreo-main
-- sudo sh install.sh kreo.0.04.tar.gz
+- sudo sh install.sh kreo.0.05.tar.gz
 ```
