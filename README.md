@@ -19,5 +19,6 @@ téléchargez kreo à partir de github :
 positionnez vous dans le répertoire contenant kreo-main.zip et tapez les commandes suivantes :
 - unzip kreo-main.zip
 - cd kreo-main
+- chmod +x install.sh
 - sudo sh install.sh kreo.0.05.tar.gz
 ```
