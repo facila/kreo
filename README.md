@@ -2,7 +2,7 @@
 
     Version Beta Test
     
-    version : 0.07 - Septembre 2021
+    version : 0.08 - Septembre 2021
     auteur  : Thierry LE GALL 
     contact : facila@gmx.fr
     site    : https://github.com/facila/kreo
@@ -20,5 +20,5 @@ positionnez vous dans le répertoire contenant kreo-main.zip et tapez les comman
 - unzip kreo-main.zip
 - cd kreo-main
 - chmod +x install.sh
-- sudo sh install.sh kreo.0.07.tar.gz
+- sudo sh install.sh kreo.0.08.tar.gz
 ```
