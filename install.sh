@@ -4,13 +4,6 @@
 # se positionner dans le répertoire contenant install.sh et le FICHIER tar.gz à installer
 # exécuter la commande : sudo sh install.sh FICHIER
 
-proc_appli ()
-{
-case $APPLI in
-kalkulo) proc_exit 'use Net::Kalk' facila/Net-Kalk ;;
-esac
-}
-
 proc_perl ()
 {
 proc_exit ''       perl 
@@ -25,7 +18,7 @@ perl -e "$1" 2>/dev/null
 
 ##########################################################################
 
-FILE=$1
+ FILE=$1
 APPLI=`echo $FILE | cut -f1 -d.`
   EXT=`echo $FILE | cut -f4-5 -d.`
 
@@ -36,11 +29,9 @@ LG=fr_FR.UTF-8
 [ "$EXT"     != "tar.gz" ] && { echo le fichier $FILE doit être un tar.gz ; exit ; }
 [ ! -s $FILE             ] && { echo fichier $FILE absent ; exit ; }
 
-# vérification des dépendances
-proc_appli
+echo vérification des dépendances
 proc_perl
 
-# installation
 echo installation de facila $FILE
 tar -xzf $FILE -C /
 
