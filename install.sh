@@ -4,12 +4,6 @@
 # se positionner dans le répertoire contenant install.sh et le FICHIER tar.gz à installer
 # exécuter la commande : sudo sh install.sh FICHIER
 
-proc_perl ()
-{
-proc_exit ''       perl 
-proc_exit 'use Tk' perl-tk
-}
-
 proc_exit ()
 {
 perl -e "$1" 2>/dev/null
@@ -30,7 +24,8 @@ LG=fr_FR.UTF-8
 [ ! -s $FILE             ] && { echo fichier $FILE absent ; exit ; }
 
 echo vérification des dépendances
-proc_perl
+proc_exit ''       perl 
+proc_exit 'use Tk' perl-tk
 
 echo installation de facila $FILE
 tar -xzf $FILE -C /
