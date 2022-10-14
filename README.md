@@ -2,7 +2,7 @@
 
     Version Beta Test
     
-    version : 0.09 - Septembre 2021
+    version : beta 1.00 - Septembre 2022
     auteur  : Thierry LE GALL 
     contact : facila@gmx.fr
     site    : https://github.com/facila/kreo
