@@ -33,3 +33,25 @@ si il y a une ancienne version de kreo
 kreo-main.zip     est déplacé dans $FACILA/share/save/install
 kreo.b1.00.tar.gz est déplacé dans $FACILA/share/save/version
 ```
+
+### Utilisation de facila kreo
+```
+$FACILA/kreo/prg/kreo
+```
+### L'utilisateur peut créer un alias dans .bashrc
+```
+alias kreo='$FACILA/kreo/prg/kreo'
+```
+### La commande devient alors
+```
+kreo
+```
+### Application partagée , commandes à faire en root
+```
+si vous souhaitez partager kreo à un groupe d'utilisateurs vous devez :
+- créer un groupe pour kreo ou utiliser un groupe déjà existant
+- mettre les répertoires et fichiers de kreo dans ce group ( vérifier les droits r-x )
+- créer les utilisateurs en les mettant dans ce groupe
+
+les utilisateurs doivent se connecter au serveur avec la commande : ssh -X SERVEUR
+```
