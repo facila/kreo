@@ -2,7 +2,7 @@
 
     Version Beta Test
     
-    version : beta 1.00 - Septembre 2022
+    version : beta 0.10 - Septembre 2022
     auteur  : Thierry LE GALL 
     contact : facila@gmx.fr
     site    : https://github.com/facila/kreo
@@ -22,7 +22,7 @@ tapez les commandes suivantes :
 - cd
 - mv $DIR_SOURCE/kreo-main.zip .
 - unzip kreo-main.zip
-- sh kreo-main/install.sh kreo.b1.00.tar.gz
+- sh kreo-main/install.sh kreo.b0.10.tar.gz
 
 si la variable globale $FACILA n'existe pas
 - elle est créée dans ~/.bashrc : "export FACILA=~/facila"
@@ -31,7 +31,7 @@ si il y a une ancienne version de kreo
 - les répertoires et fichiers de install_kreo sont copiés dans $FACILA/share/save//old
 
 kreo-main.zip     est déplacé dans $FACILA/share/save/install
-kreo.b1.00.tar.gz est déplacé dans $FACILA/share/save/version
+kreo.b0.10.tar.gz est déplacé dans $FACILA/share/save/version
 ```
 
 ### Utilisation de facila kreo
