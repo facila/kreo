@@ -28,7 +28,7 @@ si la variable globale $FACILA n'existe pas
 - elle est créée dans ~/.bashrc : "export FACILA=~/facila"
 
 si il y a une ancienne version de kreo
-- les répertoires et fichiers de install_kalkulo sont copiés dans $FACILA/share/save//old
+- les répertoires et fichiers de install_kreo sont copiés dans $FACILA/share/save//old
 
 kreo-main.zip     est déplacé dans $FACILA/share/save/install
 kreo.b1.00.tar.gz est déplacé dans $FACILA/share/save/version
@@ -50,7 +50,7 @@ kreo
 ```
 si vous souhaitez partager kreo à un groupe d'utilisateurs vous devez :
 - créer un groupe pour kreo ou utiliser un groupe déjà existant
-- mettre les répertoires et fichiers de kreo dans ce group ( vérifier les droits r-x )
+- mettre les répertoires et fichiers de kreo dans ce groupe ( vérifier les droits r-x )
 - créer les utilisateurs en les mettant dans ce groupe
 
 les utilisateurs doivent se connecter au serveur avec la commande : ssh -X SERVEUR
