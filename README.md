@@ -28,7 +28,7 @@ si la variable globale $FACILA n'existe pas
 - elle est créée dans ~/.bashrc : "export FACILA=~/facila"
 
 si il y a une ancienne version de kreo
-- les répertoires et fichiers de install_kreo sont copiés dans $FACILA/share/save//old
+- les répertoires et fichiers de install_kreo sont copiés dans $FACILA/share/save/old
 
 kreo-main.zip     est déplacé dans $FACILA/share/save/install
 kreo.b0.10.tar.gz est déplacé dans $FACILA/share/save/version
