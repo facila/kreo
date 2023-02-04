@@ -1,6 +1,6 @@
 # facila kreo : Utilitaire de gestion de projets
     
-    version : beta 1.00 - Janvier 2023
+    version : 1.00 - Janvier 2023
     auteur  : Thierry LE GALL 
     contact : facila@gmx.fr
     site    : https://github.com/facila/kreo
