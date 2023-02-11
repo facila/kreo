@@ -44,6 +44,11 @@ alias kreo='$FACILA/kreo/prg/kreo'
 ```
 kreo
 ```
+### Paramètres de kreo
+```
+Vous devez configurer les paramètres de kreo
+Voir Aide - Kreo - Paramètres
+```
 ### Application partagée , commandes à faire en root
 ```
 si vous souhaitez partager kreo à un groupe d'utilisateurs vous devez :
