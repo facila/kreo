@@ -1,6 +1,6 @@
 # facila kreo : Utilitaire de gestion de projets
     
-    version : 1.00 Février 2023
+    version : 1.01 Avril 2023
     auteur  : Thierry LE GALL 
     contact : facila@gmx.fr
     site    : https://github.com/facila/kreo
@@ -16,11 +16,13 @@ téléchargez kreo à partir de github :
 
 l'installation se fait dans le répertoire de l'utilisateur
 tapez les commandes suivantes :
-- DIR_SOURCE="nom du répertoire où se trouve le fichier téléchargé : kreo-main.zip"
+- MAIN=kreo-main
+- TAR=kreo.v1.01.tar.gz
+- DIR="nom du répertoire où se trouve le fichier téléchargé : $MAIN.zip"
 - cd
-- mv $DIR_SOURCE/kreo-main.zip .
-- unzip kreo-main.zip
-- sh kreo-main/install.sh kreo.v1.00.tar.gz
+- mv $DIR/$MAIN.zip .
+- unzip $MAIN.zip
+- sh $MAIN/install.sh $TAR
 
 si la variable globale $FACILA n'existe pas
 - elle est créée dans ~/.bashrc : "export FACILA=~/facila"
@@ -28,8 +30,8 @@ si la variable globale $FACILA n'existe pas
 si il y a une ancienne version de kreo
 - les répertoires et fichiers de install_kreo sont copiés dans $FACILA/share/save/old
 
-kreo-main.zip     est déplacé dans $FACILA/share/save/install
-kreo.v1.00.tar.gz est déplacé dans $FACILA/share/save/version
+$MAIN.zip est déplacé dans $FACILA/share/save/install
+$TAR      est déplacé dans $FACILA/share/save/version
 ```
 
 ### Utilisation de facila kreo
