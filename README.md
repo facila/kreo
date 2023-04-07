@@ -16,13 +16,13 @@ téléchargez kreo à partir de github :
 
 l'installation se fait dans le répertoire de l'utilisateur
 tapez les commandes suivantes :
-- MAIN=kreo-main
-- TAR=kreo.v1.01.tar.gz
-- DIR="nom du répertoire où se trouve le fichier téléchargé : $MAIN.zip"
-- cd
-- mv $DIR/$MAIN.zip .
-- unzip $MAIN.zip
-- sh $MAIN/install.sh $TAR
+  MAIN=kreo-main
+  TAR=kreo.v1.01.tar.gz
+  DIR="nom du répertoire où se trouve le fichier téléchargé : $MAIN.zip"
+  cd
+  mv $DIR/$MAIN.zip .
+  unzip $MAIN.zip
+  sh $MAIN/install.sh $TAR
 
 si la variable globale $FACILA n'existe pas
 - elle est créée dans ~/.bashrc : "export FACILA=~/facila"
