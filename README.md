@@ -51,12 +51,9 @@ kreo
 Vous devez configurer les paramètres de kreo
 Voir Aide - Kreo - Paramètres
 ```
-### Application partagée , commandes à faire en root
+### Application partagée sur un serveur
 ```
-si vous souhaitez partager kreo à un groupe d'utilisateurs vous devez :
-- créer un groupe pour kreo ou utiliser un groupe déjà existant
-- mettre les répertoires et fichiers de kreo dans ce groupe ( vérifier les droits r-x )
-- créer les utilisateurs en les mettant dans ce groupe
-
+kreo est accessible à tous les utilisateurs ayant un compte sur le serveur
+avec les droits r-x ou r-- pour tous
 les utilisateurs doivent se connecter au serveur avec la commande : ssh -X SERVEUR
 ```
