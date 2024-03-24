@@ -17,7 +17,7 @@ téléchargez kreo à partir de github :
 l'installation se fait dans le répertoire de l'utilisateur
 tapez les commandes suivantes :
   MAIN=kreo-main
-  TAR=kreo.v1.10.tar.gz
+  TAR=kreo.v1.20.tar.gz
   DIR="nom du répertoire où se trouve le fichier téléchargé : $MAIN.zip"
   cd
   mv $DIR/$MAIN.zip .
