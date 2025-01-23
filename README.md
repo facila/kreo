@@ -1,6 +1,6 @@
 # facila kreo : Utilitaire de gestion de projets
     
-    version : 1.20 Mars 2024
+    version : 1.30 Janvier 2025
     auteur  : Thierry LE GALL 
     contact : facila@gmx.fr
     site    : https://github.com/facila/kreo
@@ -17,7 +17,7 @@ téléchargez kreo à partir de github :
 l'installation se fait dans le répertoire de l'utilisateur
 tapez les commandes suivantes :
   MAIN=kreo-main
-  TAR=kreo.v1.20.tar.gz
+  TAR=kreo.v1.30.tar.gz
   DIR="nom du répertoire où se trouve le fichier téléchargé : $MAIN.zip"
   cd
   mv $DIR/$MAIN.zip .
