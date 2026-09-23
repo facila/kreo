@@ -10,30 +10,8 @@
 vous devez avoir installé au préalable :
 - perl et perl-tk ( Tk.pm )
 
-téléchargez kreo à partir de github :
-- cliquez sur : Code
-- cliquez sur : Download ZIP
-
-l'installation se fait dans le répertoire de l'utilisateur
-tapez les commandes suivantes :
-  MAIN=kreo-main
-  TAR=kreo.v1.33.tar.gz
-  DIR="nom du répertoire où se trouve le fichier téléchargé : $MAIN.zip"
-  cd
-  mv $DIR/$MAIN.zip .
-  unzip $MAIN.zip
-  sh $MAIN/install.sh $TAR
-
-si la variable globale $FACILA n'existe pas
-- elle est créée dans ~/.bashrc : "export FACILA=~/facila"
-
-si il y a une ancienne version de kreo
-- les répertoires et fichiers de install_kreo sont copiés dans $FACILA/save/old
-
-$MAIN.zip est déplacé dans $FACILA/save/install
-$TAR      est déplacé dans $FACILA/save/version
+voir facila/install README.md
 ```
-
 ### Utilisation de facila kreo
 ```
 $FACILA/kreo/prg/kreo
